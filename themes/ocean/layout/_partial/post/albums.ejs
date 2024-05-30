@@ -1,0 +1,53 @@
+<% if (post.albums && post.albums.length){ %>
+  <center><h1>照片墙</h1></center>
+  <div class="article-albums">
+    <ul class="article-albums-photos" id="basicExample">
+      <% post.albums.forEach(function(photo){ %>
+  
+      <li class="article-albums-item" data-scroll-reveal>
+        <a class="article-albums-img fancybox" data-fancybox="images" data-caption="<%- photo[1] %>"
+          href="<%- url_for(photo[0]) %>" rel="gallery_<%= post._id %>" title="<%- photo[1] %>">
+          <img class="lazy" data-original="<%- url_for(photo[0]) %>" itemprop="image" alt="<%- photo[1] %>" style="max-height: 160px;">
+        </a>
+        <% if (photo && photo.length > 1){ %>
+        <span class="article-albums-caption"> <%- photo[1] %> </span>
+        <% } %>
+      </li>
+  
+      <% }) %>
+    </ul>
+  </div>
+  <% } %>
+
+
+  <script>
+    // 检查屏幕宽度
+    function checkScreenWidth() {
+      var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  
+      // 如果屏幕宽度大于等于 500px，则启用这段代码
+      if (screenWidth >= 520) {
+        var elements = document.querySelectorAll('.article-albums-caption');
+        elements.forEach(function(element) {
+          element.style.display = 'inline'; // 或者 'block', 'flex'，具体取决于你的布局需求
+        });
+      }
+      if (screenWidth < 520) {
+        var elements = document.querySelectorAll('.article-albums-caption');
+        elements.forEach(function(element) {
+          element.style.display = 'none'; // 或者 'block', 'flex'，具体取决于你的布局需求
+        });
+      }
+    }
+  
+    // 页面加载完毕时执行一次检查
+    window.onload = function() {
+      checkScreenWidth();
+    };
+  
+    // 当窗口大小改变时再次执行检查
+    window.onresize = function() {
+      checkScreenWidth();
+    };
+  </script>
+  

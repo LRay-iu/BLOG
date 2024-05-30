@@ -1,0 +1,13 @@
+<% if (post.postcard && post.postcard.length){ %>
+  <center><h1>往事知多少</h1></center>
+  <div class="justified-gallery" id="gallery">
+    <% post.postcard.forEach(function(photo){ %>
+    <div>
+      <a class="fancybox " data-fancybox="images" data-caption="<%- photo[1] %>"
+        href="<%- url_for(photo[0]) %>" rel="gallery_<%= post._id %>" title="<%- photo[1] %>">
+        <img src="<%- url_for(photo[0]) %>" itemprop="image" alt="<%- photo[1] %>" class="nofancybox postcard-image" style="border-color: 1px solid black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;">
+      </a>
+    </div>
+    <% }) %>
+  </div>
+  <% } %>

@@ -1,0 +1,49 @@
+
+<footer class="footer">
+  <div class="outer" style="display: inline-block;">
+    <ul class="list-inline">
+      <li><%= config.title %>&nbsp;  |&nbsp; <%= date(new Date(), 'YYYY') %></li>
+      <% if (theme.beian){ %>
+        <li>
+          <%if (theme.beian.url){ %>
+            <a href="<%- url_for(theme.beian.url) %>" target="_blank"><%- theme.beian.number %></a>
+            <% } else { %>
+              <%- theme.beian.number %>
+          <% } %>
+        </li>
+      <% } %>
+      <p id="uptime">本站已安全运行：</p>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  // 更新并实时显示站点运行时长
+  function updateUptime() {
+    // 获取网站创建时间，这里假设你有一个变量或者常量存储了网站创建时间
+    var startDate = new Date('2024-04-28');
+    
+    // 计算运行时长
+    var now = new Date();
+    var uptime = now.getTime() - startDate.getTime();
+    var seconds = Math.floor(uptime / 1000);
+    var minutes = Math.floor(seconds / 60);
+    var hours = Math.floor(minutes / 60);
+    var days = Math.floor(hours / 24);
+    
+    // 计算剩余的小时、分钟和秒数
+    hours %= 24;
+    minutes %= 60;
+    seconds %= 60;
+    
+    // 更新页面中的元素内容
+    var uptimeString = days + ' 天, ' + hours + ' 小时, ' + minutes + ' 分钟, ' + seconds + ' 秒';
+    document.getElementById('uptime').textContent = '本站已安全运行：' + uptimeString;
+  }
+  
+  // 每秒更新一次运行时长
+  setInterval(updateUptime, 1000);
+  
+  // 页面加载完成后立即更新一次
+  updateUptime();
+</script>

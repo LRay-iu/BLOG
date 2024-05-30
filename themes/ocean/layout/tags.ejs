@@ -1,0 +1,45 @@
+
+<section class="outer" style="min-height:90vh">
+    <h1 class="page-type-title"><%= __('tags') %></h1>
+    <div class="tag-cloud-container">
+        <div class="layout-wrap-inner tag-cloud tag-link">
+            <% if(site.tags.length) { %>
+                <%- tagcloud({min_font: 15, max_font: 24}) %>
+            <% } %>
+        </div>
+    </div>
+</section>
+
+
+
+<style>
+  .tags-container {
+  width: 100%; /* 设置容器宽度 */
+  padding: 10px;
+}
+.tag-link {
+  text-decoration: none; /* 去除链接的下划线 */
+}
+
+.tag-cloud-container {
+    max-width: 800px; /* 设置标签云容器的最大宽度 */
+    margin: 15vh auto; /* 将标签云容器居中显示 */
+}
+
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 将标签云内的标签水平居中显示 */
+    align-items: center; /* 垂直居中 */
+}
+
+.tag-cloud a {
+    margin: 20px; /* 设置标签之间的间距 */
+    text-decoration: none;
+    color: #333; /* 设置标签的文字颜色 */
+    font-family: "SongHuiZongShouJinJiaCuBan-2", "Aa宋徽宗瘦金加粗版 (非商业使用)";
+    font-size: 16px; /* 设置标签的默认字体大小 */
+}
+
+
+</style>
