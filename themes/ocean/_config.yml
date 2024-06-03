@@ -6,10 +6,10 @@ menu:
   归档: /archives
   相册: /gallery
   收藏: /favorite
-  分类: /categories
+  #分类: /categories
   标签: /tags
-  友链: /friends
   收集: /postcard
+  友链: /friends
   关于: /about
 # rss: /atom.xml
 

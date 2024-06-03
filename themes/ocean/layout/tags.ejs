@@ -1,6 +1,24 @@
-
+ 
 <section class="outer" style="min-height:90vh">
-    <h1 class="page-type-title"><%= __('tags') %></h1>
+    <% if (site.categories.length){ %>
+        <h1 class="page-type-title"><%= __('categories') %></h1>
+        <p class="category-count">目前共有<strong><%= site.categories.length %></strong>个分类，<strong><%= site.tags.length %></strong>个标签</p> <!-- 显示分类数量 -->
+        <div class="categories-container">
+          <table>
+            <tbody>
+              <% site.categories.forEach(function(category) { %>
+                <tr>
+                  <td>
+                    <a href="/categories/<%= category.slug %>" class="category-link">
+                      *&nbsp;&nbsp;&nbsp;<%= category.name %>
+                    </a>
+                  </td>
+                </tr>
+              <% }); %>
+            </tbody>
+          </table>
+        </div>
+      <% } %>
     <div class="tag-cloud-container">
         <div class="layout-wrap-inner tag-cloud tag-link">
             <% if(site.tags.length) { %>
@@ -13,6 +31,34 @@
 
 
 <style>
+        .page-type-title{
+      margin-bottom: 20px;
+    }
+    .categories-container {
+      width: 100%; /* 设置容器宽度 */
+      justify-content: center;
+      margin: 20px 0 0 5vw;
+    }
+  
+    .category-link {
+      text-decoration: none; /* 去除链接的下划线 */
+      color: inherit; /* 继承父元素的颜色 */
+      font-weight: bold; /* 设置文本粗体 */
+      font-size: 16px; /* 设置文本大小 */
+    }
+  
+    .category-count{
+      text-align: center; 
+    }
+    table {
+      width: 100%; /* 表格宽度为容器宽度 */
+      border-collapse: collapse; /* 合并单元格边框 */
+    }
+    td {
+      padding:5px 0 20px 3vw; /* 设置单元格内边距 */
+      border-left: 3px dashed grey;
+      /* text-align: center; 文本居中 */
+    }
   .tags-container {
   width: 100%; /* 设置容器宽度 */
   padding: 10px;
@@ -23,7 +69,7 @@
 
 .tag-cloud-container {
     max-width: 800px; /* 设置标签云容器的最大宽度 */
-    margin: 15vh auto; /* 将标签云容器居中显示 */
+    margin: 5vh auto; /* 将标签云容器居中显示 */
 }
 
 .tag-cloud {
