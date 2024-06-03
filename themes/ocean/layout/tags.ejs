@@ -2,22 +2,15 @@
 <section class="outer" style="min-height:90vh">
     <% if (site.categories.length){ %>
         <h1 class="page-type-title"><%= __('categories') %></h1>
-        <p class="category-count">目前共有<strong><%= site.categories.length %></strong>个分类，<strong><%= site.tags.length %></strong>个标签</p> <!-- 显示分类数量 -->
+        <p class="category-count">目前共有<%= site.categories.length %>个分类，<%= site.tags.length %>个标签</p> <!-- 显示分类数量 -->
         <div class="categories-container">
-          <table>
-            <tbody>
-              <% site.categories.forEach(function(category) { %>
-                <tr>
-                  <td>
-                    <a href="/categories/<%= category.slug %>" class="category-link">
-                      *&nbsp;&nbsp;&nbsp;<%= category.name %>
-                    </a>
-                  </td>
-                </tr>
-              <% }); %>
-            </tbody>
-          </table>
+          <% site.categories.forEach(function(category) { %>
+            <a href="/categories/<%= category.slug %>" class="category-tag">
+              <%= category.name %>
+            </a>
+          <% }); %>
         </div>
+        
       <% } %>
     <div class="tag-cloud-container">
         <div class="layout-wrap-inner tag-cloud tag-link">
@@ -37,9 +30,27 @@
     .categories-container {
       width: 100%; /* 设置容器宽度 */
       justify-content: center;
-      margin: 20px 0 0 5vw;
     }
-  
+    .categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* 标签之间的间距 */
+}
+
+.category-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ffffff; /* 背景颜色 */
+  border: 0.1px solid rgb(202, 202, 202);
+  color: #6e6e6e; /* 文本颜色 */
+  text-decoration: none; /* 移除下划线 */
+  border-radius: 15px; /* 圆角边框 */
+  transition: background-color 0.3s; /* 背景颜色渐变 */
+}
+
+.category-tag:hover {
+  background-color: #eeeeee; /* 悬停时背景颜色 */
+}
     .category-link {
       text-decoration: none; /* 去除链接的下划线 */
       color: inherit; /* 继承父元素的颜色 */
