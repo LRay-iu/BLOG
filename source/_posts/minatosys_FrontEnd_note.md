@@ -1,6 +1,5 @@
 ---
 title: 水门车险的开发记录（前端）
-id: set-hexo-show-more-button-on-index
 categories:
   - 前端
 description: "水门车险开发过程记录"

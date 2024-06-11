@@ -1,6 +1,14 @@
 ---
 albums: [
     [
+      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/a2e775fb556f3202d3430f8a788803f.png",
+      "军嶂古道",
+    ],
+    [
+      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/02767365218acc958e8136d77decad8.png",
+      "惠山古镇",
+    ],
+    [
       "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/94162bf51d8674ecece607829680aa7.jpg",
       "足迹",
     ],

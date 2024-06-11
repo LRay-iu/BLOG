@@ -22,10 +22,6 @@
     <div class="article-entry" itemprop="articleBody">
       <%- partial('post/justifiedGallery') %>
       <%- partial('post/postcard') %>
-      <!-- <%- partial('post/albums') %> -->
-      <% if (index){ %>
-        <%- partial('post/gallery') %>
-      <% } %>
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
         <% if (theme.excerpt_link){ %>
@@ -34,6 +30,9 @@
               <%= theme.excerpt_link %>
             </a>
           </p>
+          <% if (index){ %>
+            <%- partial('post/gallery') %>
+          <% } %>
         <% } %>
       <% } else { %>
         <%- post.content %>
