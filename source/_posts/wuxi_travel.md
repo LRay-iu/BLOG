@@ -6,6 +6,9 @@ date: 2024-06-04 8:55
 photos: [
         ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/580885aebebf3cbca349d355142de99.jpg"],
         ]
+cover: [
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E5%B0%81%E9%9D%A2/wuxi.png"],
+        ]
 ---
 
 于2024年5月26日三人前往无锡太湖附近进行徒步游玩
