@@ -51,7 +51,17 @@ go ~ go ~ go！
 
 ## 工具包
 
-Element Plus组件开发文档：https://element-plus.org/zh-CN
+Remix网址：https://remix.ethereum.org/
+
+测试币水龙头：https://faucets.chain.link
+
+Sepolia区块链浏览器：https://sepolia.etherscan.io/
+
+Chainlink官方文档：https://docs.chain.link
+
+以太坊货币换算：https://eth-converter.com/
+
+Solidity 使用文档：https://solidity-by-example.org
 
 ## 区块链
 

@@ -63,7 +63,7 @@ valine:
   notify: false
   verify: true
   avatar: "mp"
-  pageSize: "10"
+  pageSize: "5"
   placeholder: "请输入..."
 
 symbols_count_time:
