@@ -9,9 +9,11 @@ photos: [
 cover: [
         ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E5%B0%81%E9%9D%A2/wuxi.png"],
         ]
+tags:
+    - 旅途
 ---
 
-2024年5月26日，LRay、汤日成、东南DNF三人前往无锡太湖周边进行游玩，天气阴凉，适合徒步
+​	2024年5月26日，LRay、汤日成、东南DNF三人前往无锡太湖周边进行游玩，天气阴凉，适合徒步
 
 <!-- more -->
 

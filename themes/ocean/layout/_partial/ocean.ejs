@@ -1,90 +1,97 @@
 <section class="jumbotron">
   <div class="video">
     <% if (theme.ocean.overlay) { %>
-    <div class="video-frame">
-      <img src="https://lray-iu.oss-cn-hangzhou.aliyuncs.com/overlay-hero.png" alt="Decorative image frame" class="nofancybox">
-    </div>
-    <% } %>
-    <div class="video-media">
-      <!-- <video playsinline="" autoplay="" loop="" muted="" data-autoplay="" poster="<%- theme.ocean.path %>ocean.png"
+      <div class="video-frame">
+        <img class="nofancybox" src="<%- theme.ocean.path %>overlay-hero.png" alt="Decorative image frame">
+      </div>
+      <% } %>
+        <div class="video-media">
+          <!-- <video playsinline="" autoplay="" loop="" muted="" data-autoplay="" poster="<%- theme.ocean.path %>ocean.png"
         x5-video-player-type="h5">
         <source src="<%- theme.ocean.path %>ocean.mp4" type="video/mp4">
         <source src="<%- theme.ocean.path %>ocean.ogv" type="video/ogg">
         <source src="<%- theme.ocean.path %>ocean.webm" type="video/webm">
         <p>Your user agent does not support the HTML5 Video element.</p>
       </video> -->
-      <div class="video-media">
-        <!-- <img src="<%- theme.ocean.path %>R-C.jpg" style="object-fit:cover"> -->
-        <img src="https://lray-iu.oss-cn-hangzhou.aliyuncs.com/R-C.jpg" style="object-fit:cover">
-        <div class="video-overlay"></div>
-      </div>
-      <!-- <div class="video-overlay"></div> -->
-    </div>
-    <div class="video-inner text-center text-white">
-      <h1><a href="<%- url_for() %>"><%= config.title %></a></h1>
-      <h3 class="typing"><%= config.subtitle %></h3>
-      <!-- <div><img src="<%- theme.ocean.brand %>" class="brand" alt="<%= config.title %>"></div> -->
-    </div>
-    <div class="video-learn-more">
-      <a class="anchor" href="#landingpage"><i class="fe fe-arrow-down"></i></a>
-    </div>
+          <div class="video-media">
+            <!-- <img src="<%- theme.ocean.path %>R-C.jpg" style="object-fit:cover"> -->
+            <img src="<%- theme.ocean.path %>R-C.jpg">
+            <div class="video-overlay"></div>
+          </div>
+          <!-- <div class="video-overlay"></div> -->
+        </div>
+        <div class="video-inner text-center text-white">
+          <h1><a href="<%- url_for() %>">
+              <%= config.title %>
+            </a></h1>
+          <h3 class="typing">
+            <%= config.subtitle %>
+          </h3>
+          <!-- <div><img src="<%- theme.ocean.brand %>" class="brand nofancybox" alt="<%= config.title %>"></div> -->
+        </div>
+        <div class="video-learn-more">
+          <a class="anchor" href="#landingpage"><i class="fe fe-arrow-down"></i></a>
+        </div>
   </div>
 </section>
 
 <style>
+  @font-face {
+    font-family: 'SongHuiZongShouJinJiaCuBan-2';
+    src: url("/css/songhuizong/SongHuiZongShouJinJiaCuBan-2.woff") format('woff'),
+      url("/css/songhuizong/SongHuiZongShouJinJiaCuBan-2.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-/* @font-face {
-  font-family: 'SongHuiZongShouJinJiaCuBan-2';
-  src: url("https://lray-iu.oss-cn-hangzhou.aliyuncs.com/font/SongHuiZongShouJinJiaCuBan-2.woff") format('woff'),
-       url("https://lray-iu.oss-cn-hangzhou.aliyuncs.com/font/SongHuiZongShouJinJiaCuBan-2.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-          
-.video-frame{
-  object-fit: fill;
-  margin-bottom: -1px;
-  width:100%;
-}
-h1 a{
-  font-family: "SongHuiZongShouJinJiaCuBan-2", "Aa宋徽宗瘦金加粗版 (非商业使用)", "STSong", "SimSun", "Helvetica", "Arial", sans-serif;;
-  font-weight: 500;
-  text-shadow: 1px 0px 7px #000000, 1px 2px 8px #000000, 2px 1px 10px #000000;
-}
+  .video-frame {
+    object-fit: fill;
+    margin-bottom: -1px;
+    width: 100%;
+  }
 
-.typing {
+  h1 a {
+    font-family: "SongHuiZongShouJinJiaCuBan-2", "Aa宋徽宗瘦金加粗版 (非商业使用)", "STSong", "SimSun", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 0px 7px #000000, 1px 2px 8px #000000, 2px 1px 10px #000000;
+  }
+
+  .typing {
     color: white;
     /* font-size: 2em; */
-    width:265px;
+    font-family: "SongHuiZongShouJinJiaCuBan-2", "Aa宋徽宗瘦金加粗版 (非商业使用)", "STSong", "SimSun", "Helvetica", "Arial", sans-serif;
+    ;
+    width: 265px;
     height: 1.5em;
     border-right: 1px solid transparent;
     /*时间、字符数、光标频率*/
     animation: typing 2s steps(15, end), blink-caret .75s step-end infinite;
-    font-family: Consolas, Monaco;
     word-break: break-all;
     overflow: hidden;
-}
-/* 打印效果 */
-@keyframes typing {
+    text-shadow: 1px 0px 3px #000000, 1px 2px 4px #000000, 2px 1px 5px #000000;
+  }
+
+  /* 打印效果 */
+  @keyframes typing {
     from {
-        width: 0;
+      width: 0;
     }
 
     to {
-        width: 264px;
+      width: 264px;
     }
-}
+  }
 
-/* 光标 */
-@keyframes blink-caret {
+  /* 光标 */
+  @keyframes blink-caret {
 
     from,
     to {
-        border-color: transparent;
+      border-color: transparent;
     }
 
     50% {
-        border-color: currentColor;
+      border-color: currentColor;
     }
-}
+  }
 </style>

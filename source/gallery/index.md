@@ -1,35 +1,29 @@
 ---
 albums: [
     [
-      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/a2e775fb556f3202d3430f8a788803f.png",
-      "军嶂古道",
+      "/gallery/index/a2e775fb556f3202d3430f8a788803f.png",
     ],
     [
-      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/02767365218acc958e8136d77decad8.png",
-      "惠山古镇",
+      "/gallery/index/02767365218acc958e8136d77decad8.png",
     ],
     [
-      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/94162bf51d8674ecece607829680aa7.jpg",
-      "足迹",
-    ],
-    [
-      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/9b5dde87e553f9765798f32b4c8c780.jpg",
+      "/gallery/index/9b5dde87e553f9765798f32b4c8c780.jpg",
       "猫猫",
     ],
     [
-      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/b34da152994c452ddbeea787a27f663.jpg",
+      "/gallery/index/b34da152994c452ddbeea787a27f663.jpg",
       "笨笨",
     ],
     [
-      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/5840ed3701adbe506cf18ec63ad6771.jpg",
+      "/gallery/index/5840ed3701adbe506cf18ec63ad6771.jpg",
       "烟花",
     ],
     [
-      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/5795c12252367521864517958d74f4e.jpg",
+      "/gallery/index/5795c12252367521864517958d74f4e.jpg",
       "芝士焗饭[LRay专供]",
     ],
     [
-      "https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/be3d09fedfc3b1f10ad256a1e8f3908.png",
+      "/gallery/index/be3d09fedfc3b1f10ad256a1e8f3908.png",
       "南京明城墙",
     ],
     # ["/gallery/index/be3d09fedfc3b1f10ad256a1e8f3908.png", "南京明城墙"],

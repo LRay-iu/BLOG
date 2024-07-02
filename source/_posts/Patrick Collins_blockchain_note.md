@@ -10,7 +10,7 @@ tags:
     - 智能合约
 ---
 
-有关区块链和WEB3全栈开发的课程笔记，来源是Patrick Collins 讲解的区块链课程，使用了Solidity，Javascript进行了智能合约的编写，部署和交互。这是比较流行的写法，当然合约不止Solidity一种编写方法，在引入库的之后，Javascript、Python、Golang都可以做到。
+​	有关区块链和WEB3全栈开发的课程笔记，来源是Patrick Collins 讲解的区块链课程，使用了Solidity，Javascript进行了智能合约的编写，部署和交互。这是比较流行的写法，当然合约不止Solidity一种编写方法，在引入库的之后，Javascript、Python、Golang都可以做到。
 
 <!-- more -->
 
