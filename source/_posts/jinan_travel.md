@@ -4,7 +4,7 @@ categories:
   - 生活记录
 date: 2024-06-28 10:43
 photos: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/580885aebebf3cbca349d355142de99.jpg"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%B5%8E%E5%8D%97/pic/photo.png"],
         ]
 cover: [
         ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E5%B0%81%E9%9D%A2/jinan.png"],
