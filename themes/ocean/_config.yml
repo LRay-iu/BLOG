@@ -26,10 +26,10 @@ ocean:
 
 # MIIT ICP/IP/DOMAIN
 beian:
-  enable: false
-  number:
+  enable: true
+  number: 皖ICP备2024053806号-1
   url: https://beian.miit.gov.cn/
-
+  logo: /images/foot-logo.png
 # Tags
 # show_count: true
 

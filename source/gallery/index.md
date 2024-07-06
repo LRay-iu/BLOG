@@ -1,10 +1,7 @@
 ---
 albums: [
     [
-      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/a2e775fb556f3202d3430f8a788803f.png",
-    ],
-    [
-      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/02767365218acc958e8136d77decad8.png",
+      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/%E6%97%A0%E9%94%A1%E5%90%88%E7%85%A7.png",
     ],
     [
       " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/9b5dde87e553f9765798f32b4c8c780.jpg",
