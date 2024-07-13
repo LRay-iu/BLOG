@@ -1,0 +1,12 @@
+albums: [
+    ["/gallery/index/1018合照.png", "1018合照.png"],
+    ["/gallery/index/5840ed3701adbe506cf18ec63ad6771.jpg", "5840ed3701adbe506cf18ec63ad6771.jpg"],
+    ["/gallery/index/六安夕阳.png", "六安夕阳.png"],
+    ["/gallery/index/匈牙利牛肉焗饭【LRay】特供版.jpg", "匈牙利牛肉焗饭【LRay】特供版.jpg"],
+    ["/gallery/index/宝龙广场猫猫.jpg", "宝龙广场猫猫.jpg"],
+    ["/gallery/index/崇明岛大鹅.png", "崇明岛大鹅.png"],
+    ["/gallery/index/无锡合照.png", "无锡合照.png"],
+    ["/gallery/index/笨笨机器人.jpg", "笨笨机器人.jpg"],
+    ["/gallery/index/蔡昶安&LRay.png", "蔡昶安&LRay.png"],
+    ["/gallery/index/陈珏&LRay.png", "陈珏&LRay.png"],
+]

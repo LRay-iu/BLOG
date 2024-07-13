@@ -156,7 +156,11 @@ tags:
 
 <img src="wuxi_travel/a2e775fb556f3202d3430f8a788803f.png" alt="a2e775fb556f3202d3430f8a788803f" style="zoom:33%;" />
 
-<center><br>众神之父请赐予我视野<br><br></center>
+<center><br>众神之父请赐予我视野<br><br>走出来看到的小花↓<br><br></center>
+
+<img src="wuxi_travel/f99b0a70d8fe594a1cb60876a89c5d0.png" alt="f99b0a70d8fe594a1cb60876a89c5d0" style="zoom:15%;" />
+
+<br>
 
 <img src="wuxi_travel/e5e782b62f70befbee201f721164abd.png" alt="e5e782b62f70befbee201f721164abd" style="zoom:33%;" />
 

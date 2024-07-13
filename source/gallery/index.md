@@ -1,30 +1,18 @@
 ---
 albums: [
-    [
-      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/%E6%97%A0%E9%94%A1%E5%90%88%E7%85%A7.png",
-    ],
-    [
-      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/9b5dde87e553f9765798f32b4c8c780.jpg",
-      "猫猫",
-    ],
-    [
-      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/b34da152994c452ddbeea787a27f663.jpg",
-      "笨笨",
-    ],
-    [
-      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/5840ed3701adbe506cf18ec63ad6771.jpg",
-      "烟花",
-    ],
-    [
-      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/5795c12252367521864517958d74f4e.jpg",
-      "芝士焗饭[LRay专供]",
-    ],
-    [
-      " https://lray-iu.oss-cn-hangzhou.aliyuncs.com/galary/index/be3d09fedfc3b1f10ad256a1e8f3908.png",
-      "南京明城墙",
-    ],
-    # ["/gallery/index/be3d09fedfc3b1f10ad256a1e8f3908.png", "南京明城墙"],
-  ]
+    ["/gallery/index/1018合照.png"],
+    ["/gallery/index/陈珏&LRay.png"],
+    ["/gallery/index/无锡合照.png"],
+    ["/gallery/index/蔡昶安&LRay.png"],
+    ["/gallery/index/六安夕阳.png", "六安夕阳"],
+    ["/gallery/index/2024烟花.jpg", "2024烟花"],
+    ["/gallery/index/宝龙广场猫猫.jpg", "宝龙广场猫猫"],
+    ["/gallery/index/南京明城墙.jpg", "南京明城墙"],
+    ["/gallery/index/匈牙利牛肉焗饭【LRay】特供版.jpg", "匈牙利牛肉焗饭【LRay】特供版"],
+    ["/gallery/index/崇明岛大鹅.png", "崇明岛大鹅"],
+    ["/gallery/index/笨笨机器人.jpg", "笨笨机器人"],
+
+]
 date: 2024-04-23 10:19:19
 type: gallery
 layout: "gallery"
