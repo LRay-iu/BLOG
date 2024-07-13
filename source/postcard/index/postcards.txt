@@ -1,9 +1,0 @@
-postcard: [
-    ["/postcard/index/军嶂古道.png"],
-    ["/postcard/index/南长街步行街.png"],
-    ["/postcard/index/太湖仙岛.png"],
-    ["/postcard/index/太湖银鱼.png"],
-    ["/postcard/index/惠山古镇.png"],
-    ["/postcard/index/玉兰饼.png"],
-    ["/postcard/index/茶颜悦色.png"],
-]
