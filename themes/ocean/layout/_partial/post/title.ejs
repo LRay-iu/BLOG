@@ -1,11 +1,11 @@
 <% if (post.link){ %>
   <h2 class="<%= class_name %>" itemprop="name">
-    <a href="<%- url_for(post.link) %>" itemprop="url"><%= post.title %></a>
+    <a href="<%- url_for(post.link) %>" itemprop="url" style="color: rgb(30, 62, 63);text-decoration: none;"><%= post.title %></a>
   </h2>
   <% } else if (post.title){ %>
   <% if (index){ %>
   <h2 class="<%= class_name %>" itemprop="name">
-    <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+    <a href="<%- url_for(post.path) %>" style="color: rgb(30, 62, 63);text-decoration: none;"><%= post.title %></a>
   </h2>
   <% } else { %>
   <h1 class="<%= class_name %>" itemprop="name">

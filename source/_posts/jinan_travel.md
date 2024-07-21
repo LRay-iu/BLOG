@@ -2,7 +2,7 @@
 title: 泉城-济南
 categories:
   - 生活记录
-date: 2024-06-28 10:43
+date: 2024-07-14 10:43
 photos: [
         ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%B5%8E%E5%8D%97/pic/photo.png"],
         ]
@@ -20,7 +20,7 @@ tags:
 > * Created by Typora
 > * Author: LRay-iu
 > * createTime: 2024-06-28 10:48
-> * updateTime: 2024-06-28 10:48
+> * updateTime: 2024-07-14 10:48
 
 ## 行程记录
 
@@ -52,6 +52,10 @@ tags:
 19：30 骑车前往济南站
 
 ```
+
+## 出行路线
+
+<img src="jinan_travel/7707e2487fcdfccad200b6d92c858b1.png" alt="7707e2487fcdfccad200b6d92c858b1" style="zoom: 50%;" />
 
 ## 大观园
 
