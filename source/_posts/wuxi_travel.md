@@ -4,10 +4,10 @@ categories:
   - 生活记录
 date: 2024-06-04 8:55
 photos: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%97%A0%E9%94%A1/pic/580885aebebf3cbca349d355142de99.jpg"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/photo/wuxi_photo.jpg"],
         ]
 cover: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E5%B0%81%E9%9D%A2/wuxi.png"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/cover/wuxi_cover.png"],
         ]
 tags:
     - 旅途

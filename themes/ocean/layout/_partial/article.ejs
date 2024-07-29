@@ -35,7 +35,7 @@
       <% } %> -->
                                 <% if (post.excerpt && index){ %>
                                   <%- post.excerpt %>
-                                    <% if (theme.excerpt_link){ %>
+                                    <% if (theme.excerpt_link && (!post.unfold )){ %>
                                       <p>
                                         <a class="article-more-link" href="<%- url_for(post.path) %>" style="text-decoration: none;">
                                           <%= theme.excerpt_link %>

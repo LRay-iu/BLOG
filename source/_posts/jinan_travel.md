@@ -4,10 +4,10 @@ categories:
   - 生活记录
 date: 2024-07-14 10:43
 photos: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E6%B5%8E%E5%8D%97/pic/photo.png"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/photo/jinan_photo.png"],
         ]
 cover: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E5%B0%81%E9%9D%A2/jinan.png"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/cover/jinan_cover.png"],
         ]
 tags:
     - 旅途
@@ -298,5 +298,7 @@ tags:
 > 车票定的是学生票，但其实我是不具备购买学生票的条件的（学生证上需要盖章），但是最后也没有查这个，也算是占了点小便宜吧
 >
 > 11点到13点那会的太阳太毒辣了，胳膊没做防晒，导致两条手臂和后脖子都被晒伤了，持续不断的蜕皮。😥
+>
+> 大明湖边上买了一包济南老酸奶大麻花，10r，里面也没吃到酸奶，纯面，太干了，啃了半个扔掉了
 >
 > 订票定错了，定成18点出发的车票了，导致19点45到的时候急得团团转，最后上车补票才坐到末班车，不仅比原来定的票贵而且还是站票。

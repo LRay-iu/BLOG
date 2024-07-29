@@ -5,10 +5,10 @@ categories:
 description: "水门车险开发过程记录"
 date: 2024-05-06 16:08
 photos: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E7%BC%A9%E7%95%A5%E5%9B%BE/%E7%99%BE%E6%88%98%E6%B0%B4%E9%97%A8.png"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/photo/minato_photo.png"],
         ]
 cover: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/%E5%B0%81%E9%9D%A2/%E7%99%BE%E6%88%98%E6%B0%B4%E9%97%A8.png"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/cover/minato_cover.png"],
         ]
 tags:
   - Vue3.0
