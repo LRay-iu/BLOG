@@ -12,7 +12,7 @@
     "version": "7.2.0"
   },
   "dependencies": {
-    "eslint": "^9.1.1",
+    "eslint": "^9.8.0",
     "hexo": "^7.0.0",
     "hexo-asset-image": "https://github.com/CodeFalling/hexo-asset-image.git",
     "hexo-asset-pipeline": "^1.8.0",
