@@ -4,10 +4,10 @@ categories:
   - 生活记录
 date: 2024-07-25 14:31
 photos: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/photo/zibo_photo.png"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/photo/taian_photo.png"],
         ]
 cover: [
-        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/cover/zibo_cover.png"],
+        ["https://lray-iu.oss-cn-hangzhou.aliyuncs.com/cover/taian_cover.png"],
         ]
 tags:
     - 旅途
@@ -111,7 +111,7 @@ tags:
 
 <br>
 
-<img src="taishan_travel/IMG_20240624_192902_edit_61600039356224.jpg" alt="IMG_20240624_192902_edit_61600039356224" style="zoom:8%;" />
+<img src="taishan_travel/南天门夕阳.jpg" alt="IMG_20240624_192902_edit_61600039356224" style="zoom:8%;" />
 
 ## 观日出
 
@@ -135,7 +135,7 @@ tags:
 
 人真的很多
 
-<img src="taishan_travel/IMG_20240625_055243_edit_5254111300759.jpg" alt="IMG_20240625_055243_edit_5254111300759" style="zoom:10%;" />
+<img src="taishan_travel/勇闯天涯.jpg" alt="IMG_20240625_055243_edit_5254111300759" style="zoom:10%;" />
 
 泰山的气象站。
 
@@ -161,7 +161,7 @@ tags:
 
 刚出南天门前的阶梯上看到的，之前闷头爬是背对它的，下山才看到还有这样的风景，”一览众山小“大概就是这意思吧
 
-<img src="taishan_travel/IMG_20240625_073447_edit_82847305208190.jpg" alt="IMG_20240625_073447_edit_82847305208190" style="zoom:10%;" />
+<img src="taishan_travel/一览众山小.jpg" alt="IMG_20240625_073447_edit_82847305208190" style="zoom:10%;" />
 
 从南天门往下走的商贩（南天门有索道可以到桃花源）
 
