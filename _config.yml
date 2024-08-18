@@ -119,6 +119,7 @@ search:
   path: search.xml
   field: post
   content: true
+  template: themes/ocean/search.xml
 
 symbols_count_time:
   symbols: true # 文章字数统计

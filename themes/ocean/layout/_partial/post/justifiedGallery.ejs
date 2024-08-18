@@ -5,7 +5,7 @@
   <div>
     <a class="fancybox" data-fancybox="images" data-caption="<%- photo[1] %>"
       href="<%- url_for(photo[0]) %>" rel="gallery_<%= post._id %>" title="<%- photo[1] %>">
-      <img src="<%- url_for(photo[0]) %>" itemprop="image" alt="<%- photo[1] %>" class="nofancybox" >
+      <img src="<%- url_for(photo[0]) %>" itemprop="image" alt="<%- photo[1] %>" class="nofancybox lazy" >
     </a>
   </div>
   <% }) %>
