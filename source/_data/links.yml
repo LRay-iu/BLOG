@@ -1,0 +1,32 @@
+- links_category: 
+  has_thumbnail: false
+  list: 
+  - name: 糖泥
+    link: https://tangricheng.com/
+    description: 大杯牛乳红茶，少冰，三分糖，加波霸。
+    avatar: https://tangricheng.com/images/avatar.jpg
+
+  - name: 东南DNF
+    link: https://dnf.doyi.online/
+    description: 向着全栈迈进的码农
+    avatar: https://lib.dnf.doyi.online/imgs/avatar/dnf-avatar.jpeg
+
+  - name: nich0las
+    link: https://nicholas-wei.github.io/
+    description: 勤能补拙是良训，一分辛苦一分才
+    avatar: https://nicholas-wei.github.io/img/avatar.png
+
+- links_category: 主题来源
+  has_thumbnail: true
+  list: 
+  - name: EvenNotFound
+    link: https://ohevan.com/
+    description: Redefine 作者
+    avatar: https://assets.ohevan.com/avatars/avatar-min.webp
+    thumbnail: /img/friends/wallhaven-72rd8e_1920x1080.webp
+
+  - name: Redefine docs
+    link: https://redefine-docs.ohevan.com/
+    description: redefine your writing
+    avatar: https://evan.beee.top/projects/hexo-theme-redefine/statics/logos/logo.webp
+    thumbnail: https://redefine.ohevan.com/images/wallhaven-wqery6-light.webp
