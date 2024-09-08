@@ -10,13 +10,13 @@ const { hbeTheme } = require("./lib/hbe.default.js");
 
 const defaultConfig = {
   abstract:
-    "这里有东西被加密了，需要输入密码查看哦。",
-  message: "您好, 这里需要密码",
+    "Here's something encrypted, password is required to continue reading.",
+  message: "Hey, password is required here.",
   theme: "default",
   wrong_pass_message:
-    "密码错误.",
+    "Oh, this is an invalid password. Check and try again, please.",
   wrong_hash_message:
-    "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.",
+    "OOPS, these decrypted content may changed, but you can still have a look.",
   silent: false,
 };
 

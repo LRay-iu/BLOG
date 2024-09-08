@@ -1,5 +1,8 @@
 <% 
 // Load the appropriate album based on the page's front-matter
+if (!site.data.masonry || typeof site.data.masonry !== 'object' || typeof page.masonry !== 'string') {
+    throw new Error('Invalid masonry data structure or page masonry key');
+}
 const images = site.data.masonry[page.masonry] || [];
 %>
 
