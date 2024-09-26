@@ -62,7 +62,7 @@ date: 2024-08-23 22:44:52
             <input disabled type="checkbox">&nbsp;&nbsp;备考软考
         </div>
         <div style="display: flex;">
-            <input disabled type="checkbox">&nbsp;&nbsp;存够一个打不溜
+            <input abled type="checkbox">&nbsp;&nbsp;存够一个打不溜
         </div>
     </div>
 </div>
