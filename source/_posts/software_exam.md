@@ -445,3 +445,72 @@ UTP是非屏蔽双绞线，STP是屏蔽双绞线
 **交换机所连接的所有接口属于一个广播域**
 
 **路由器的每一个接口都是一个广播域**
+
+#### VLAN划分
+
+- 静态划分
+
+  将端口分配给vlan
+
+  ```terminal
+  [Huawei]vlan 10 //创建VLAN 10
+  [Huawei-vlan10]quit //退出[Huawei] interface GigabitEthernet0/0/1 //进入接
+  [Huawei-GigabitEthernet0/0/1] port link-type access;//把接口设置成access[Huawei-GigabitEthernet0/0/1] port default vlan 10 //把接口加入VLAN 10
+  ```
+
+- MAC地址划分
+
+  将mac地址，网络层的地址，网络层协议，IP广播或管理划分
+
+  ```terminal
+  [Huaweilvlan 20 //创建VLAN 20
+  [Huawei-vlan20lmac-vlan mac-address5489-98FC-5825//把MAC地址为5489-98FC-5825的终端加入VLAN 20
+  ```
+
+  
+
+- 基于策略划分
+  ```terminal
+  [Huaweil vlan20 //创建VLAN 20
+  [Huawei-vlan20] policy-vlan mac-address 0-1-1 ip 10.1.1.1 priority 7
+  ```
+
+
+基于策略划分VLAN，把MAC地址为0-1-1，IP地址为1.1.1.1的主机划分到VLAN 20中，并配置该VLAN的802.1p优先级是7
+
+#### VLAN作用
+
+**控制网络流量**，一个VLAN内部的通信（包括广播通信）不会转发到其他VLAN中去，从而有助于控制广播风暴，减少冲突域，提高网络带宽的利用率。
+
+**提高网络的安全性**，路由与路由之间可以通过配置路由来提供广播过滤、安全和流量控制等功能。不同VLAN之间的通信受到限制，提高了企业网络的安全性
+
+**灵活的网络管理**，VLAN机制使得工作组可以突破地理位置的限制而根据管理功能进行划分。如果根据MAC地址划分VLAN，用户可以在任何地方接入交换网络，实现移动办公。
+
+#### 802.1Q标签
+
+重点掌握**PRI**（priority）和**VID**（VlanID）
+
+**PRI**，多个帧同时发送的时候，按优先级顺序发送数据包
+
+**VID**，最多可以表示2^12=4096个VLAN，其中VID0用于识别优先级，VID4096保留未用，默认管理VLAN是1，不能删除
+
+交换机添加和删除VLAN标签是由专用硬件自动实现，处理速度很快，**不会引入太大的延迟**。
+
+从用户角度来看，数据源产生标准的以太帧，目的地接收的也是标准的以太帧，**VLAN标记对用户是透明的**
+
+![image-20240928212218644](software_exam/image-20240928212218644.png)
+
+802.1Q帧格式如下：
+
+![image-20240928212253639](software_exam/image-20240928212253639.png)
+
+#### 交换机接口类型
+
+**Access接口**：只能传送单个VLAN数据，一般用于连接PC/摄像头等终端
+
+Trunk接口：能传送多个数据，一般用于交换机之间互联
+
+**Hybrid接口**：混合接口，包含access和trunk接口属性
+
+**QinQ**：双层标签，一般用于运营商城域网
+
