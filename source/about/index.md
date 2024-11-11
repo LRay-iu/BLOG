@@ -49,22 +49,21 @@ date: 2024-08-23 22:44:52
     希望能和各位做个朋友 ^__^ <br>
     <div style="height:35px"></div>
 </center>
-<center>
+<!-- <center>
     <h4>短期目标[2024年底前] </h4>
 </center>
 
 <div style="display: flex; justify-content: center;">
     <div style="display: flex; flex-direction: column; align-items: flex-start;">
         <div style="display: flex;">
-            <input disabled type="checkbox">&nbsp;&nbsp;购置一台Z30微单
+            <input disabled type="checkbox" checked >&nbsp;&nbsp;购置一台Z30微单
         </div>
         <div style="display: flex;">
-            <input disabled type="checkbox">&nbsp;&nbsp;备考软考
+            <input disabled type="checkbox" checked >&nbsp;&nbsp;备考软考
         </div>
         <div style="display: flex;">
-            <input abled type="checkbox">&nbsp;&nbsp;存够一个打不溜
+            <input disabled type="checkbox" checked >&nbsp;&nbsp;存够一个打不溜
         </div>
     </div>
-</div>
-
-<div style="height:100px"></div>
+</div> -->
+<div style="height:40px"></div>
