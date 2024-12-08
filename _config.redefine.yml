@@ -81,7 +81,7 @@ global:
   # Whether to enable single page experience (using swup). See https://swup.js.org/. similar to pjax
   single_page: true
   # Whether to enable Preloader.
-  preloader: false
+  preloader: true
   # Whether to enable open graph
   open_graph: true
   # Google Analytics
@@ -160,7 +160,7 @@ home_banner:
     links:
       github: https://github.com/LRay-iu # your GitHub URL
       email: lr1159074129@gmail.com # your email
-      fa-brands fa-qq: https://res.abeim.cn/api/qq/?qq=2955930388
+      # fa-brands fa-qq: https://res.abeim.cn/api/qq/?qq=2955930388
       # ...... # you can add more
     # Social links with QRcode drawers
       # weixin:    # your Wechat QRcode image URL
@@ -233,9 +233,9 @@ home:
       说说:
         path: /essays
         icon: fa-solid fa-comments
-      明信片:
-        path: /masonry/postcard
-        icon: fa-solid fa-image
+      # 明信片:
+      #   path: /masonry/postcard
+      #   icon: fa-solid fa-image
       友链:
         path: /links
         icon: fa-solid fa-user-group

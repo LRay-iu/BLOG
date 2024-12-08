@@ -1,26 +1,6 @@
 - content: |
     兵马未至，粮草先行~
     镜头和SD卡一前一后到了，相机还要后天才能到，期待ing
-    <font size="2"><b>P. S </b> 补充一下，昨天考试的感受，考核内容还是要求比较扎实的基础，我的水平确实还是差了不少，OSPF和规划基本都是凭感觉的，很多状态和可能性分析写的也是一团糟糕
-        虽然说熟悉了流程之后，我感觉，再来一次应该就能过了，只不过吧。。
-        我现在考这个，真的还有用么？我深感怀疑</font>
-        <style>
-            .grid-container {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 5px;
-                width: 300px; /* 调整总宽度以适应图片 */
-                margin-left: 0;
-            }
-            .grid-container img {
-                width: 100%;
-                height: 100px; /* 固定高度以确保正方形 */
-                object-fit: cover; /* 裁切图片以适应容器 */
-                object-position: center; /* 中心对齐裁切 */
-                display: block;
-                border-radius: 10px; 
-            }
-        </style>
     <div class="grid-container">
         <img src="/img/essay/525df8a57f028fb62ebc421e113482a.webp" >
         <img src="/img/essay/697350200f9d87dc0a6959ccf904de3.webp" >
@@ -30,83 +10,32 @@
 
 - content: |
     离大谱，今天突然发现自己将近一个月的朋友圈都没怎么看，太反常了
-    <font size="2"><b>P. S </b>等考试结束，把泉州的旅行写一写（应该是过不掉了，明年再试试哈哈哈）</font>
-        <style>
-            .grid-container {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 5px;
-                width: 300px; /* 调整总宽度以适应图片 */
-                margin-left: 0;
-            }
-            .grid-container img {
-                width: 100%;
-                height: 100px; /* 固定高度以确保正方形 */
-                object-fit: cover; /* 裁切图片以适应容器 */
-                object-position: center; /* 中心对齐裁切 */
-                display: block;
-                border-radius: 10px; 
-            }
-        </style>
+    <b>P. S </b>等考试结束，把泉州的旅行写一写（应该是过不掉了，明年再试试哈哈哈）
     <div class="grid-container">
         <img src="/img/essay/ac661dee1d165253c98eb0565fa701e.webp" >
         <img src="/img/essay/9ba8871f20a10f5dab0f679c386ff93.webp" >
     </div>
   date: 2024-11-08 20:52:00 #说说日期
 
-- content: |
-    最近真的发生了好多事情啊，我得好好捋捋
-    首先就是之前定的武夷山，最后返程票买不到，只能取消了，最后和垚哥泉州玩了3天多，总体还是很不错的【有空再写成博客】
-    <b>虽然</b>说西街人非常多，但好歹能流动；尽管最后我俩都被传上流感，不过现在也就轻微咳嗽，总体我还是对这趟旅行没什么差评的
-    <b>其次</b>是工作上的事情，之前薛师傅监考我的安检，被骂的狗血淋头，为了避免排管被骂的这么惨，昨天下了不少功夫去练习拧黑头子
-    也不知道是谁在传什么我是韩所的迷弟，昨天练到一半，薛师傅跑过来突然盯着我看，我嘞个压力。
-    <b>总之</b>，今天培训课程就结束了，最后一门考试（排管）也考完了，还可以，95分，米老头监考的
-    下周一有个团活动，半天，下午还要彩排，被分去诗朗诵了。周二去5588见领导（说是要准备个人介绍和培训感想），最后分配，
-    老实说，我感觉是浦江所没跑了，不知道谁到处传”我是韩所迷弟，非浦江所不去“。。不过我倒是无所谓
-    周二再去市场部见见带过我的师傅们，准备请他们喝喝咖啡，他们都是非常好的人（熠哥，胡老师，辰哥，徐老师还有徐哥），感谢他们在我实习最后的阶段给予的帮助
-    <font size="2"><b>P. S </b>下个月就软考了，好没底啊，学不完了。。。</font>
-        <style>
-            .grid-container {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 5px;
-                width: 300px; /* 调整总宽度以适应图片 */
-                margin-left: 0;
-            }
-            .grid-container img {
-                width: 100%;
-                height: 100px; /* 固定高度以确保正方形 */
-                object-fit: cover; /* 裁切图片以适应容器 */
-                object-position: center; /* 中心对齐裁切 */
-                display: block;
-                border-radius: 10px; 
-            }
-        </style>
-    <div class="grid-container">
-        <img src="/img/emoji/c72bd65e8c283e160ad0ebe7be2b31b4.gif" alt="兴奋">
-    </div>
-  date: 2024-10-12 20:11:00 #说说日期
+# - content: |
+#     最近真的发生了好多事情啊，我得好好捋捋
+#     首先就是之前定的武夷山，最后返程票买不到，只能取消了，最后和垚哥泉州玩了3天多，总体还是很不错的【有空再写成博客】
+#     <b>虽然</b>说西街人非常多，但好歹能流动；尽管最后我俩都被传上流感，不过现在也就轻微咳嗽，总体我还是对这趟旅行没什么差评的
+#     <b>其次</b>是工作上的事情，之前薛师傅监考我的安检，被骂的狗血淋头，为了避免排管被骂的这么惨，昨天下了不少功夫去练习拧黑头子
+#     也不知道是谁在传什么我是韩所的迷弟，昨天练到一半，薛师傅跑过来突然盯着我看，我嘞个压力。
+#     <b>总之</b>，今天培训课程就结束了，最后一门考试（排管）也考完了，还可以，95分，米老头监考的
+#     下周一有个团活动，半天，下午还要彩排，被分去诗朗诵了。周二去5588见领导（说是要准备个人介绍和培训感想），最后分配，
+#     老实说，我感觉是浦江所没跑了，不知道谁到处传”我是韩所迷弟，非浦江所不去“。。不过我倒是无所谓
+#     周二再去市场部见见带过我的师傅们，准备请他们喝喝咖啡，他们都是非常好的人（熠哥，胡老师，辰哥，徐老师还有徐哥），感谢他们在我实习最后的阶段给予的帮助
+#     <font size="2"><b>P. S </b>下个月就软考了，好没底啊，学不完了。。。</font>
+#     <div class="grid-container">
+#         <img src="/img/emoji/c72bd65e8c283e160ad0ebe7be2b31b4.gif" alt="兴奋">
+#     </div>
+#   date: 2024-10-12 20:11:00 #说说日期
 
 - content: |
     前天就从泉州回来了，一回来就开始发烧，应该是最后一天景区被传染的
     果然，国庆对各个景点来说就是一个巨大的压测。人真的暴多
-        <style>
-            .grid-container {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 5px;
-                width: 300px; /* 调整总宽度以适应图片 */
-                margin-left: 0;
-            }
-            .grid-container img {
-                width: 100%;
-                height: 100px; /* 固定高度以确保正方形 */
-                object-fit: cover; /* 裁切图片以适应容器 */
-                object-position: center; /* 中心对齐裁切 */
-                display: block;
-                border-radius: 10px; 
-            }
-        </style>
     <div class="grid-container">
         <img src="/img/essay/288017e9d559bbe73c35d394529f777.webp" alt="关岳庙">
     </div>
@@ -157,23 +86,6 @@
 - content: |
     最近染上一个很不好的兴趣爱好，每天盼着9点多开盘，然后盯着走线，看看跟自己猜的是否一致;
     其实我没买多少基金，甚至债券被卡了不少份额在里面拿不出来，但这种感觉真的很让人舒爽，我怀疑这是身体为了适应在培训时候的枯燥自主产生的。但不得不说，这确实很有效果，极大程度上的削弱了这种坐牢一般的痛苦感。
-    <style>
-            .grid-container {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 5px;
-                width: 300px; /* 调整总宽度以适应图片 */
-                margin-left: 0;
-            }
-            .grid-container img {
-                width: 100%;
-                height: 100px; /* 固定高度以确保正方形 */
-                object-fit: cover; /* 裁切图片以适应容器 */
-                object-position: center; /* 中心对齐裁切 */
-                display: block;
-                border-radius: 10px; 
-            }
-        </style>
     <div class="grid-container">
         <img src="/img/emoji/笑哭.webp" alt="笑哭">
     </div>
@@ -182,23 +94,6 @@
 - content: |
     今天是在市场部实习的最后一天，转眼已经在市场部实习了4个多月了，明天开始就要培训了，之后就是正式员工，能拿五金和正式工资了（其实现在已经开始拿了）；
     昨天看了一眼培训名单，基本上都是陌生人，这一点有些羡慕隔壁上海电气的培训，700多号人居然还能找着老同学。
-    <style>
-            .grid-container {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 5px;
-                width: 300px; /* 调整总宽度以适应图片 */
-                margin-left: 0;
-            }
-            .grid-container img {
-                width: 100%;
-                height: 100px; /* 固定高度以确保正方形 */
-                object-fit: cover; /* 裁切图片以适应容器 */
-                object-position: center; /* 中心对齐裁切 */
-                display: block;
-                border-radius: 10px; 
-            }
-        </style>
     <div class="grid-container">
         <img src="/img/emoji/feizhaidaile.webp" alt="肥宅呆了">
     </div>
@@ -211,12 +106,13 @@
                   display: grid;
                   grid-template-columns: repeat(3, 1fr);
                   gap: 5px;
-                  width: 300px; /* 调整总宽度以适应图片 */
+                  width: 100%;
+                  max-width: 285px; /* 限制容器最大宽度 */
                   margin-left: 0;
               }
               .grid-container img {
                   width: 100%;
-                  height: 100px; /* 固定高度以确保正方形 */
+                  aspect-ratio: 1 / 1; /* 强制宽高比为 1:1 */
                   object-fit: cover; /* 裁切图片以适应容器 */
                   object-position: center; /* 中心对齐裁切 */
                   display: block;

@@ -4,9 +4,7 @@ comment: true
 date: 2024-08-23 22:44:52
 ---
 
-<div  style="padding:5%;margin-bottom:0%">
-    <h1>关于</h1>
-</div>
+
 <center>
         <img src="https://lray-iu.oss-cn-hangzhou.aliyuncs.com/tenten.png" alt="cc544a61403ef581b24d56b3bb6f6b8"
             style="zoom: 20%;" class="nofancybox" />
