@@ -47,6 +47,8 @@ npm create vue@latest
 
 ![image-20240105104452696](/img/Vue3_note/image-20240105104452696.png)
 
+完成之后记得随手清楚asset目录下的css样式文件
+
 ### 工作目录介绍
 
 - /**public**

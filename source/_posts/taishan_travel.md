@@ -133,10 +133,6 @@ tags:
 
 <img src="/img/taishan_travel/IMG_20240625_051923.jpg" alt="IMG_20240625_051923" style="zoom:10%;" />
 
-那路人姐说的一点没错，真的很难绷，真想删掉（**要黑化了**）
-
-<img src="/img/taishan_travel/mmexport1719446927162_edit_99879125112362.jpg" alt="mmexport1719446927162_edit_99879125112362" style="zoom:20%;" />
-
 最后去瞻鲁台看了一眼，顾名思义，这个地方可以看见过去鲁国的境内（好像是这样）
 
 <img src="/img/taishan_travel/%E7%9E%BB%E9%B2%81%E5%8F%B0.png" alt="瞻鲁台" style="zoom:10%;" />
