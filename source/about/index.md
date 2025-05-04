@@ -27,16 +27,13 @@ date: 2024-08-23 22:44:52
     目前在上海的一家能源单位摸爬滚打<br>
     <div style="height:10px"></div>
 </center>
+
 <center>
-    马上×（已经√）要成为一只社畜了<br>
+    兴趣爱好有 🎵 听音乐，📕 看小说，📷拍照（虽然水平很差）等等<br>
     <div style="height:10px"></div>
 </center>
 <center>
-    兴趣爱好有 🎵 听音乐，📕 看小说等等<br>
-    <div style="height:10px"></div>
-</center>
-<center>
-    最喜欢的游戏是 <b>Minecraft</b><br>
+    最喜欢的游戏是 <b>Minecraft</b>和<b>火影忍者手游</b><br>
     <div style="height:10px"></div>
 </center>
 <center>
@@ -47,21 +44,4 @@ date: 2024-08-23 22:44:52
     希望能和各位做个朋友 ^__^ <br>
     <div style="height:35px"></div>
 </center>
-<!-- <center>
-    <h4>短期目标[2024年底前] </h4>
-</center>
 
-<div style="display: flex; justify-content: center;">
-    <div style="display: flex; flex-direction: column; align-items: flex-start;">
-        <div style="display: flex;">
-            <input disabled type="checkbox" checked >&nbsp;&nbsp;购置一台Z30微单
-        </div>
-        <div style="display: flex;">
-            <input disabled type="checkbox" checked >&nbsp;&nbsp;备考软考
-        </div>
-        <div style="display: flex;">
-            <input disabled type="checkbox" checked >&nbsp;&nbsp;存够一个打不溜
-        </div>
-    </div>
-</div> -->
-<div style="height:40px"></div>
