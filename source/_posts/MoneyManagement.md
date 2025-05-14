@@ -12,7 +12,7 @@ copyright: 无
 
 这两天有点事，忙完累的不想动弹，这边简单复盘一下交割记录
 
-<img src="MoneyManagement/image-20250514220814453.png" alt="image-20250514220814453" style="zoom:25%;" />
+<img src="/img/MoneyManagement/image-20250514220814453.webp" alt="image-20250514220814453" style="zoom:25%;" />
 
 分别于5月9日（周五）买入**汉马科技**，当时的逻辑是一进二，但是结合之后来看是死掉了，原因很简单，人气不够足。
 
@@ -33,7 +33,7 @@ copyright: 无
 
 记录一下第一次打高价股，高切低
 
-<img src="/img/MoneyManagement/image-20250508213539996.webp" alt="image-20250508213539996" style="zoom: 33%;" />
+<img src="/img/MoneyManagement/image-20250508213539996.webp" alt="image-20250508213539996" style="zoom: 25%;" />
 
 <img src="/img/MoneyManagement/image-20250508213557992.webp" alt="image-20250508213557992" style="zoom:25%;" />
 
@@ -48,7 +48,7 @@ copyright: 无
 
 至于创业板ETF，没啥原因，买好就放那里吧，急拉再出，防一手踏空。
 
-<img src="/img/MoneyManagement/image-20250507215921427.webp" alt="image-20250507215921427" style="zoom: 33%;" />
+<img src="/img/MoneyManagement/image-20250507215921427.webp" alt="image-20250507215921427" style="zoom: 25%;" />
 
 <img src="/img/MoneyManagement/image-20250507220130274.webp" alt="image-20250507220130274" style="zoom:25%;" />
 
